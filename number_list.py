@@ -1,0 +1,5 @@
+input_nums = input("enter your nums : ").split()
+input_nums_map = list(map(int, input_nums))
+min = int(input("enter your min number : "))
+max = int(input("enter your max number : "))
+print(list(filter(lambda x : x>=min and x<=max, input_nums_map)))
